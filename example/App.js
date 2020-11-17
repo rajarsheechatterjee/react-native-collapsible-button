@@ -17,8 +17,8 @@ const App = () => {
                 <CollapsibleButton
                     value={value}
                     onPress={handleValue}
-                    iconColor="red"
-                    textStyle={{ color: "red" }}
+                    borderColor="#2979FF"
+                    rippleColor="#2979FF"
                 />
             </View>
             <Text style={styles.sampleText} numberOfLines={value ? 3 : 100}>
@@ -44,7 +44,6 @@ const styles = StyleSheet.create({
     },
     container: {
         alignItems: "center",
-        backgroundColor: "#fff",
         justifyContent: "space-between",
         flexDirection: "row",
     },
