@@ -1,11 +1,15 @@
 # React Native Collapsible Button
 
+<p align="center">
+    <img height="400" src="./assets/preview.gif">
+</p>
+
 ## Installation
 
 Add the dependency:
 
 ```js
-npm i react-native-collapsible-button
+npm install react-native-collapsible-button
 ```
 
 # Usage
@@ -74,3 +78,10 @@ const styles = StyleSheet.create({
     sampleText: { lineHeight: 25, marginTop: 10, fontSize: 15 },
 });
 ```
+## Built With
+- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+- [react-native-material-ripple](https://github.com/n4kz/react-native-material-ripple)
+
+## License
+
+[MIT](https://github.com/rajarsheechatterjee/react-native-collapsible-button/blob/main/LICENSE)
