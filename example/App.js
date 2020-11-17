@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 import { CollapsibleButton } from "react-native-collapsible-button";
 
-export default function App() {
+const App = () => {
     const [value, setValue] = useState(true);
 
     const handleValue = () => setValue(!value);
@@ -33,7 +33,9 @@ export default function App() {
             </Text>
         </View>
     );
-}
+};
+
+export default App;
 
 const styles = StyleSheet.create({
     mainContainer: {
