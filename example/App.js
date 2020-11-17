@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { CollapsibleButton } from "react-native-collapsible-button";
 
 const App = () => {
-    const [value, setValue] = useState(true);
+    const [value, setValue] = useState(false);
 
     const handleValue = () => setValue(!value);
 
