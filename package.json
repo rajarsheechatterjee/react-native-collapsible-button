@@ -1,11 +1,25 @@
 {
-  "name": "react-native-collapsible-button",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Rajarshee Chatterjee",
-  "license": "ISC"
+    "name": "react-native-collapsible-button",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rajarsheechatterjee/react-native-collapsible-button.git"
+    },
+    "keywords": [
+        "button",
+        "collapsible",
+        "react-native",
+        "react-component"
+    ],
+    "author": "Rajarshee Chatterjee",
+    "license": "ISC",
+    "dependencies": {
+        "react-native-paper": "^4.4.0",
+        "react-native-vector-icons": "^7.1.0"
+    }
 }
