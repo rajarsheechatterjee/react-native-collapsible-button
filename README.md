@@ -1,8 +1,14 @@
-# React Native Collapsible Button
+<div align="center">
+<h1>React Native Collapsible Button</h1>
 
-<p align="center">
-    <img height="400" src="./assets/preview.gif">
-</p>
+[![npm](https://img.shields.io/npm/v/react-native-collapsible-button)](https://www.npmjs.com/package/react-native-collapsible-button) ![npm](https://img.shields.io/npm/dt/react-native-collapsible-button) [![GitHub](https://img.shields.io/github/license/rajarsheechatterjee/react-native-collapsible-button)](https://github.com/rajarsheechatterjee/react-native-collapsible-button/blob/main/LICENSE)
+
+
+<img height="400" src="./assets/preview.gif">
+
+> A simple and customizable collapsible button.
+
+</div>
 
 ## Installation
 
@@ -32,13 +38,7 @@ const App = () => {
             <StatusBar style="auto" />
             <View style={styles.container}>
                 <Text style={styles.text}>About</Text>
-                <CollapsibleButton
-                    value={value}
-                    onPress={handleValue}
-                    rippleColor="#2979FF"
-                    textColor="#2979FF"
-                    borderColor="#2979FF"
-                />
+                <CollapsibleButton value={value} onPress={handleValue} />
             </View>
             <Text style={styles.sampleText} numberOfLines={value ? 3 : 100}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
