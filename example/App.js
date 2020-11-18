@@ -14,7 +14,7 @@ const App = () => {
             <StatusBar style="auto" />
             <View style={styles.container}>
                 <Text style={styles.text}>About</Text>
-                <CollapsibleButton value={value} onPress={handleValue} />
+                <CollapsibleButton onPress={handleValue} value={value} />
             </View>
             <Text style={styles.sampleText} numberOfLines={value ? 3 : 100}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
